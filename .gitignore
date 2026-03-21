@@ -1,0 +1,26 @@
+############################################
+# Secrets (sensitive information)
+############################################
+**/.env
+**/.env.*
+
+############################################
+# Regenerable (recreated from source/config)
+############################################
+# Python bytecode & virtual environments
+**/__pycache__/
+**/*.py[cod]
+**/venv/
+**/.venv/
+
+# Python tool caches
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Node dependencies (restored via npm/yarn install)
+**/node_modules/
+
+# OS metadata (not useful for backup)
+**/.DS_Store
+**/Thumbs.db
